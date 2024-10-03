@@ -9,7 +9,8 @@ export const Container = emotionStyled(Box)((props) =>
     boxShadow: 'dark-lg',
     minH: '10',
     position: 'fixed',
-    borderBottom: '1px solid black'
+    borderBottom: '1px solid black',
+    zIndex: 99
   })(props.theme)
 )
 
