@@ -9,7 +9,6 @@ export const Container = emotionStyled(Flex)((props) =>
     w: '100%',
     position: 'relative',
     pt: '4rem',
-    pb: '20rem',
     zIndex: 2
   })(props.theme)
 )
