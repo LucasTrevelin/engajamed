@@ -1,4 +1,4 @@
-import { Box, css, Heading } from '@chakra-ui/react'
+import { Box, css } from '@chakra-ui/react'
 import emotionStyled from '@emotion/styled'
 
 export const BackgroundContainer = emotionStyled(Box)((props) =>
@@ -11,22 +11,13 @@ export const BackgroundContainer = emotionStyled(Box)((props) =>
 
 export const Container = emotionStyled(Box)((props) =>
   css({
-    background: 'brand.background_green',
+    background: 'brand.background_blue',
     padding: '2rem',
     display: 'flex',
     flexDir: 'column',
     justifyContent: 'center',
     alignItems: 'center',
     rowGap: '3rem',
-    position: 'relative',
-    height: '100%',
-    minHeight: '450px'
-  })(props.theme)
-)
-
-export const Title = emotionStyled(Heading)((props) =>
-  css({
-    textAlign: 'center',
-    color: 'white'
+    height: '100%'
   })(props.theme)
 )

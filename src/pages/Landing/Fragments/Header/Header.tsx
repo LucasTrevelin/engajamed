@@ -7,7 +7,7 @@ const Header: React.FC = () => {
     <S.Container>
       <Flex justifyContent='space-between' alignItems='center'>
         <S.Logo src='/images/logo_blue.jpg' alt='Logo' />
-        <Flex justifyContent='flex-end' pr='10' columnGap={5}>
+        <Flex justifyContent='flex-end' pr='10' columnGap={10}>
           <Link fontSize='xl'>Home</Link>
           <Link fontSize='xl'>Serviços</Link>
           <Link fontSize='xl'>Planos</Link>

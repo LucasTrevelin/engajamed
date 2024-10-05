@@ -5,6 +5,9 @@ import { Header } from './Fragments/Header'
 import { Presentation } from './Fragments/Presentation'
 import { Section } from './Fragments/Section'
 import { ActualScenario } from './Fragments/ActualScenario'
+import { Services } from './Fragments/Services'
+import { WhyChooseUs } from './Fragments/WhyChooseUs'
+import { SocialManagement } from './Fragments/SocialManagement'
 
 const Landing: React.FC = () => {
   return (
@@ -20,6 +23,9 @@ const Landing: React.FC = () => {
             <Presentation />
           </Section>
           <ActualScenario />
+          <Services />
+          <SocialManagement />
+          <WhyChooseUs />
         </Flex>
       </S.LandingContainer>
     </Flex>

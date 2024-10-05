@@ -10,7 +10,7 @@ const Presentation: React.FC = () => {
       <S.Container>
         <LogoBubbles />
         <S.ContentContainer>
-          <S.Title as='h1' textAlign='center'>
+          <S.Title as='h1' fontSize='4xl' textAlign='center'>
             Sem tempo para redes sociais <br /> e ao tráfego pago?
           </S.Title>
           <Text
