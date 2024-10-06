@@ -12,5 +12,11 @@ export const timelineSteps: TSteps['steps'] = [
     title: 'Configurações básicas',
     text: 'Fanpage + Instragram (Grupo Meta), dados de acesso das redes sociais, adm da fanpage, envio da logo em Alta com ID Visual e Google Meu Negócio do Consultório.',
     placement: 'right'
+  },
+  {
+    number: 3,
+    title: 'Configurações básicas',
+    text: 'Fanpage + Instragram (Grupo Meta), dados de acesso das redes sociais, adm da fanpage, envio da logo em Alta com ID Visual e Google Meu Negócio do Consultório.',
+    placement: 'left'
   }
 ]

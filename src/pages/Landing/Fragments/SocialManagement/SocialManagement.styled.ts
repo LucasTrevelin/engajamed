@@ -8,7 +8,6 @@ export const Container = emotionStyled(Box)((props) =>
     display: 'flex',
     flexDir: 'column',
     height: '100%',
-    minH: '1000px',
     position: 'relative',
     rowGap: '1rem'
   })(props.theme)
