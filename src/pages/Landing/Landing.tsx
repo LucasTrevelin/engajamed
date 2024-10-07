@@ -8,6 +8,8 @@ import { ActualScenario } from './Fragments/ActualScenario'
 import { Services } from './Fragments/Services'
 import { WhyChooseUs } from './Fragments/WhyChooseUs'
 import { SocialManagement } from './Fragments/SocialManagement'
+import { Authors } from './Fragments/Authors'
+import { Plans } from './Fragments/Plans'
 
 const Landing: React.FC = () => {
   return (
@@ -26,6 +28,8 @@ const Landing: React.FC = () => {
           <Services />
           <SocialManagement />
           <WhyChooseUs />
+          <Authors />
+          <Plans />
         </Flex>
       </S.LandingContainer>
     </Flex>

@@ -6,7 +6,7 @@ import { BaseboardSection } from '../BaseboardSection'
 
 const Presentation: React.FC = () => {
   return (
-    <Flex flexDirection='column' w='100%' h='100%' zIndex={4}>
+    <Flex flexDirection='column' w='100%' h='100%'>
       <S.Container>
         <LogoBubbles />
         <S.ContentContainer>

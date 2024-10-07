@@ -6,6 +6,7 @@ export const Container = emotionStyled(Flex)((props) =>
     w: '100%',
     flexDir: 'column',
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
+    my: 8
   })(props.theme)
 )

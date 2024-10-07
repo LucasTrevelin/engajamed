@@ -7,7 +7,8 @@ const colors = {
     background_green_lighter: '#015A84',
     background_blue: '#4A9EDA',
     letter_highlight: '#1D49A7',
-    subtitle: '#00000060'
+    subtitle: '#00000060',
+    green_filter: '#023C52'
   }
 }
 

@@ -18,7 +18,8 @@ export const ContentContainer = emotionStyled(Flex)((props) =>
     justifyContent: 'center',
     alignItems: 'flex-start',
     rowGap: 4,
-    flexDirection: 'column'
+    flexDirection: 'column',
+    zIndex: 10
   })(props.theme)
 )
 

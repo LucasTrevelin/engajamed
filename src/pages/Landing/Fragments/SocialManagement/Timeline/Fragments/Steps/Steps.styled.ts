@@ -23,7 +23,7 @@ export const BoxContainer = emotionStyled(Box)<{ placement: 'left' | 'right' }>(
       position: 'absolute',
       top: '20%',
       transform: 'translateY(-50%)',
-      [props.placement]: 'calc(50% + 40px)', // Text box to the left or right
+      [props.placement]: 'calc(50% + 2.5rem)', // Text box to the left or right
       textAlign: 'left'
     })(props.theme)
 )
